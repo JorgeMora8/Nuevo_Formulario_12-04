@@ -4,7 +4,7 @@
 
 
 .packs__portada--imagen { 
-    background-image: url(../imagenes/packs__portada.png);
+    background-image: url(../imagenes/packs__portada.b.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -41,7 +41,7 @@
         margin-top: 6rem;
     }
 
-    h5{ 
+    b{ 
         text-align: center;
         font-family: $type;
         font-size: 1.5rem;
@@ -237,7 +237,7 @@
     left: 0%;
     background-position: center;
     background-size: cover;
-    background-image: url(../imagenes/promocion__uno.png);
+    background-image: url(../imagenes/promocion__uno.b.jpg);
   }
 
 
@@ -296,7 +296,7 @@
 
 @media only screen and (max-width:945px){ 
       .packs__body{ 
-          h5{
+          b{
             font-size: 1.5rem;   
           }
       }
@@ -308,7 +308,7 @@
          font-size: 2rem;  
         }
 
-        h5{
+        b{
         font-size: 1.3rem;   
         }
     }
@@ -368,7 +368,7 @@
         font-size: 2.3rem;   
        }
 
-       h5{
+       b{
         font-size: 1.2rem;   
        }
     }
@@ -396,7 +396,7 @@
         h2{
          font-size: 2rem;   
         }
-        h5{
+        b{
          font-size: 1.1rem;   
         }
     }

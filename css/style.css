@@ -47,7 +47,7 @@ padding: 0%;
   height: 100vh;
   position: relative;
   opacity: 100%;
-  background-image: url(../imagenes/alea__portada.png);
+  background-image: url(../imagenes/alea__portada.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -102,7 +102,7 @@ background-color: rgb(255, 255, 255);
 
   width: 100%;
   height: 280px;
-  background-image: url(../imagenes/alea--rellena.png);
+  background-image: url(../imagenes/alea--rellena.b.jpg);
   background-position: center;
   background-size: cover;
   transition: transform 0.5s ease;
@@ -120,7 +120,7 @@ background-color: rgb(255, 255, 255);
   width: 100%;
   height: 280px;
   bottom: 0%;
-  background-image: url(../imagenes/alea__relleno.png);
+  background-image: url(../imagenes/alea__relleno.b.jpg);
   background-position: center;
   background-size: cover;
   transition: transform 0.5s ease;
@@ -451,11 +451,11 @@ font-size: 2.7rem;
 @media only screen and (max-width:650px) { 
 
   .beneficios-dos-imagen {
-    background-image: url(../imagenes/beneficios-imagen-648px.png);
+    background-image: url(../imagenes/beneficios-imagen-648px.b.jpg);
   }
 
   .beneficios-imagen {
-    background-image: url(../imagenes/beneficios__info.png);
+    background-image: url(../imagenes/beneficios__info.b.jpg);
   }
   .beneficios p ,
 .beneficios-dos-parrafo,
@@ -501,7 +501,7 @@ font-size: 2.7rem;
 @media only screen and (max-width:495px){ 
  
   .image {
-    background-image: url(../imagenes/responsive__1024.png);
+    background-image: url(../imagenes/responsive__1024.b.jpg);
   }
  
 
@@ -548,7 +548,7 @@ font-size: 2.7rem;
 }
 
 .beneficios__portada {
-  background-image: url(../imagenes/beneficios__portada.png);
+  background-image: url(../imagenes/beneficios__portada.b.jpg);
   width: 100%;
   height: 100vh;
   background-position: center;
@@ -957,7 +957,7 @@ font-size: 0.95rem;
 }
 
 .packs__portada--imagen {
-  background-image: url(../imagenes/packs__portada.png);
+  background-image: url(../imagenes/packs__portada.b.jpg);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -1052,7 +1052,7 @@ font-size: 0.95rem;
   left: 0%;
   background-position: center;
   background-size: cover;
-  background-image: url(../imagenes/promocion__uno.png);
+  background-image: url(../imagenes/promocion__uno.b.jpg);
 }
 
 .packs__body--flex div img {
@@ -1461,7 +1461,7 @@ font-size: 0.95rem;
 }
 
 .portada__contenido--imagen {
-  background-image: url(../imagenes/portada__beneficios.png);
+  background-image: url(../imagenes/portada__beneficios.b.jpg);
   width: 100%;
   height: 100vh;
   background-position: center;
@@ -1772,7 +1772,7 @@ font-size: 0.95rem;
 }
 
 .portada__contenido--imagen {
-  background-image: url(../imagenes/recetas.750px.png);
+  background-image: url(../imagenes/recetas.750px.b.jpg);
 }
 
 }
@@ -1849,7 +1849,7 @@ font-size: 0.95rem;
 }
 
 .recetas__imagen {
-  background-image: url(../imagenes/imagen__recetas.png);
+  background-image: url(../imagenes/imagen__recetas.b.jpg);
   width: 100%;
   height: 100vh;
   background-position: center;
@@ -2094,7 +2094,7 @@ text-align: center;
 }
 
 .recetas__imagen {
-  background-image: url(../imagenes/recetas_650px.png);
+  background-image: url(../imagenes/recetas_650px.b.jpg);
 }
 
 .footer__recetas ul li {
@@ -2206,7 +2206,7 @@ text-align: center;
 }
 
 .contacto__imagen {
-  background-image: url(../imagenes/contacto__portada.png);
+  background-image: url(../imagenes/contacto__portada.b.jpg);
   width: 100%;
   height: 100vh;
   background-position: center;

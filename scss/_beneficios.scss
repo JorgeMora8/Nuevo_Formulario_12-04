@@ -1,0 +1,353 @@
+.card{
+    position: absolute;
+     top: 0%;
+     width: 24rem;
+     height: auto;
+     overflow: hidden;
+}
+
+.header__beneficios{
+    background-color: #aa6157;
+}
+
+.beneficios__portada {
+    background-image: url(../imagenes/beneficios__portada.b.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;  
+    
+    h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: "poppins";
+        font-size: 6rem;
+        font-weight: 700;
+        color: white;
+      }
+}
+
+.container__informacion{
+    h2{
+        color: #412a26;
+        font-size: 3.5rem;
+        font-weight: 700;
+        text-align: center;
+        margin: 7rem 0px 10px 0px;        
+    }
+}
+
+.informacion__beneficios {
+    p{
+        font-weight: 300;
+        color: #36231a;
+        text-align: left;
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 0px 70px;
+        margin-bottom: 6rem;      
+    }
+}
+
+.tips__beneficios {
+    background-color: #ffffff;
+   }
+   
+   .tips__imagen {
+     position: relative;
+     width: 100%;
+     height: 250px;
+     background-color: #bd5f4e;
+     background-position: center;
+     background-size: cover;
+     z-index: 10;
+     margin-bottom: 6rem;
+   }
+
+   .tips__imagen {
+       img{
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 150px; 
+       } 
+       
+       h2{
+        position: absolute;
+        top: 27%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: "poppins";
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: white;
+        text-align: center;           
+       }
+   }
+
+   .tips__flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    bottom: 60px;   
+    
+    div{
+        width: 24rem;
+        height: 31rem;
+        background-color: #fff3e9;
+        margin: 20px 30px;
+        box-shadow: 0px 2px 2px rgba(255, 123, 0, 0.438);
+        transition: all 0.4s;
+        border-radius: 12px;
+        position: relative;  
+        
+        h2 {
+            position: absolute;
+            top: 53%;
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: "poppins";
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: #6a5d4a;
+            text-align: center;
+          }
+        
+        &:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 12px 16px rgba(255, 94, 0, 0.2);   
+        }
+
+        i {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            background-color: #f47762;
+            padding: 15px;
+            border-radius: 2rem;
+          }   
+          
+          h3 {
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: "poppins";
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: rgb(39, 39, 39);
+            text-align: center;
+          }
+
+          p {
+            position: absolute;
+            top: 68%;
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: "poppins";
+            text-align: center;
+            color: #1b1b1b;
+          }
+    }
+   }
+
+   .tips__flex--uno{
+       img{
+         @extend .card;   
+       }
+   }
+
+   .tips__flex--dos{
+    img{
+        @extend .card;          
+    }
+}
+.tips__flex--tres{
+    img{
+        @extend .card;          
+    }
+}
+.tips__flex--cuatro{
+    img{
+        @extend .card;          
+    }
+}
+
+@media only screen and (max-width:1100px){ 
+
+    .informacion__beneficios{
+        p{
+      margin-bottom: 6rem;
+      font-size: 1.3rem;
+      font-family: "poppins";
+      font-weight: 300;
+      color: #332a1d;
+      padding: 0px 10rem;
+      text-align: left;}
+     
+  }
+  }
+  .beneficios__portada {
+    h1 {
+        font-size: 4rem;
+       }
+  }
+
+  @media only screen and (max-width:945px) { 
+    .informacion__beneficios {
+        p{font-size: 1.2rem;
+            padding: 0px 8rem;}
+    }
+    .container__informacion {
+        h2{font-size: 2.7rem;}
+    
+    }
+  }
+
+  @media only screen and (max-width:820px) { 
+    .informacion__beneficios{
+        p{  font-size: 1.1rem;
+            padding: 0px 7rem;}   
+  }
+
+  .container__informacion {
+    h2{font-size: 2.3rem;}
+  
+  }
+  .beneficios__portada {
+    h1{ font-size: 3rem;}
+   }
+  
+  }
+
+  @media only screen and (max-width:650px) { 
+    .informacion__beneficios {
+        p{  font-size: 1rem;
+            padding: 0px 6rem;}
+  
+     
+  }
+  .container__informacion {
+    h2{font-size: 2rem;}
+  
+  }
+  }
+
+  @media only screen and (max-width:495px) { 
+    .informacion__beneficios {
+        p{  
+            padding: 0px 2.8rem;}
+     
+  }
+  .container__informacion {
+    h2{ font-size: 1.8rem;}
+  
+  }
+  
+  .tips__flex {
+    div{
+        width: 22rem;
+        height: 27rem;}
+  }
+  
+  .tips__flex--uno img,
+  .tips__flex--dos img,
+  .tips__flex--tres img,
+  .tips__flex--cuatro img {
+    width: 22rem;
+  }
+  
+  .tips__flex {
+    div {
+        p{
+            font-size: 0.9rem;
+        }
+    }
+  }
+  
+  }
+  
+  
+  @media only screen and (max-width:435px){ 
+  
+    .tips__flex {
+        div{width: 20rem;
+            height: 25rem;}
+    }
+    
+    .tips__flex--uno img,
+  .tips__flex--dos img,
+  .tips__flex--tres img,
+  .tips__flex--cuatro img {
+    width: 20rem;
+  }
+  
+  .tips__flex div {
+    h2{ font-size: 1.4rem;}
+  }
+  
+  .tips__flex div {
+    p{font-size: 0.95rem;}
+  }
+  
+  .informacion__beneficios {
+    p{
+        padding: 0px 2.8rem;
+    }
+      
+   }
+  
+   .tips__imagen  {
+    h2{font-size: 1.3rem;}
+  }
+  
+  .tips__flex div {
+    p{font-size: 0.7rem;}
+   }
+  }
+  
+  @media only screen and (max-width:405px){
+  
+      .tips__flex {
+        div{ width: 16rem;
+            height: 22rem;}
+    
+    }
+    
+    .tips__flex--uno img,
+  .tips__flex--dos img,
+  .tips__flex--tres img,
+  .tips__flex--cuatro img {
+    width: 16rem;
+  }
+  
+  .tips__flex {
+    div{
+        h2{
+            font-size: 1.2rem;
+            top: 51%;
+        }
+    }
+  }
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

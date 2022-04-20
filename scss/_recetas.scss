@@ -1,6 +1,6 @@
 $color-map :(
     popcolor:#f47762,
-    fondo:#ffe9d5,
+    fondo:#ffe6ce,
     tcolor_uno:#57322d,
     tcolor_dos:#3d352a,
     fondo_dos:#bc5042,
@@ -25,7 +25,7 @@ $type:"poppins";
 
 
 .recetas__imagen {
-  background-image: url(../imagenes/imagen__recetas.png);
+  background-image: url(../imagenes/imagen__recetas.b.jpg);
   width: 100%;
   height: 100vh;
   background-position: center;
@@ -102,7 +102,7 @@ $type:"poppins";
         width: 17.5rem; 
     }
 
-    h6 { 
+    b { 
         position: absolute;
         top: 35%;
         left: 7%;
@@ -149,24 +149,6 @@ $type:"poppins";
     }
 }
 
-.footer {
-    background-color: map-get($color-map, fondo_tres );
-  }
-  
-  .footer ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-  }
-  
-  .footer ul li {
-    padding: 20px;
-    color: white;
-    font-family: $type;
-    font-weight: map-get($type-map, lightsubtitulo );
-    font-size: 1rem;
-  }
 
 /*media queries pagina recetas*/
 
@@ -177,13 +159,6 @@ $type:"poppins";
         }
     }
 
-    .footer { 
-        ul { 
-            li { 
-                font-size: 0.8rem;
-            }
-        }
-    }
 }
 
 @media only screen and (max-width:945px){ 
@@ -221,18 +196,6 @@ $type:"poppins";
         }
     }
 
-      .footer{ 
-          ul{
-            list-style-type: none;
-            position: absolute;
-            display: inline-block;
-            background-color: #332a1d;  
-            
-            li{
-                padding: 10px 0px 10px 20px;  
-            }
-          }
-      }
 }
 
 @media only screen and (max-width:650px) {
@@ -244,18 +207,7 @@ $type:"poppins";
             font-size: 1rem;
         }
 
-        .footer { 
-            ul { 
-             list-style-type: none;
-             position: absolute;
-             display: inline-block;
-             background-color: #332a1d;
-     
-             li { 
-                 padding: 10px 0px 10px 20px;
-             }
-            }
-        }
+       
     }
 
 
@@ -294,7 +246,7 @@ $type:"poppins";
             text-align: center;
         }
 
-        h6 { 
+        b { 
              position: absolute;
              top: 5%;
              left: 50%;
@@ -330,16 +282,10 @@ $type:"poppins";
     }
 
     .recetas__imagen {
-        background-image: url(../imagenes/recetas_650px.png);
+        background-image: url(../imagenes/recetas_650px.b.jpg);
       }
 
-      .footer__recetas { 
-          ul { 
-              li{ 
-                  font-size: 0.6rem;
-              }
-          }
-      }
+      
 }
 
 @media only screen and (max-width:495px){ 

@@ -4,7 +4,7 @@
   margin: 0%; }
 
 .recetas__imagen {
-  background-image: url(../imagenes/imagen__recetas.png);
+  background-image: url(../imagenes/imagen__recetas.b.jpg);
   width: 100%;
   height: 100vh;
   background-position: center;
@@ -772,7 +772,7 @@
   left: 0%;
   background-position: center;
   background-size: cover;
-  background-image: url(../imagenes/promocion__uno.png); }
+  background-image: url(../imagenes/promocion__uno.b.jpg); }
 
 .promo-texto {
   position: absolute;
