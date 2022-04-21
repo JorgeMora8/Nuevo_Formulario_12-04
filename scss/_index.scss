@@ -25,9 +25,10 @@
     height: 100vh;
     position: relative;
     opacity: 100%;
-    background-image: url(../imagenes/alea__portada.jpg);
+    background-image: url(../imagenes/alea__portada.a);
     background-position: center;
     background-size: cover;
+    
   }
   
   .img__darker {
@@ -37,7 +38,7 @@
   .image__titulo {
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translateX(-50%);
     font-family: "poppins";
@@ -56,7 +57,7 @@
   .beneficios__titulo { 
    text-align: center;
    font-size: 3rem;
-   margin: 6rem 0px 10px 0px;
+   margin: 6.5rem 0px 10px 0px;
    font-family: "poppins";
    font-weight: 700;
    color: #514534;
@@ -67,12 +68,20 @@
     font-size: 1.2rem;
     padding: 0px 100px;
     font-weight: 300;
-    margin-bottom: 6rem;
+    margin-bottom: 6.5rem;
   }
   
 
 .beneficios-dos {
 background-color: rgb(255, 255, 255);
+
+.beneficios-dos-parrafo{
+  text-align: left;
+  font-size: 1.2rem;
+  padding: 0px 100px;
+  font-weight: 300;
+  margin-bottom: 6.5rem;
+}
 
 a{
     position: absolute;
@@ -102,31 +111,19 @@ a{
     width: 100%;
     height: 280px;
     bottom: 0%;
-    background-image: url(../imagenes/alea__relleno.b.jpg);
+    background-image: url(../imagenes/alea__relleno.f.jpg);
     background-position: center;
     background-size: cover;
-    transition: transform 0.5s ease;
-
-    &:hover{
-        transform: scale(1.1);
-        cursor: pointer;   
-    }
   }
 
   .beneficios-imagen {
     background-color: #000;  
     width: 100%;
     height: 280px;
-    background-image: url(../imagenes/alea--rellena.b.jpg);
+    background-image: url(../imagenes/alea--rellena.c);
     background-position: center;
     background-size: cover;
-    transition: transform 0.5s ease;
 
-    &:hover {
-        transform: scale(1.1);
-        cursor: pointer;
-        overflow: hidden;  
-    }
   }
 
   .beneficios-dos-parrafo {
@@ -175,7 +172,7 @@ a{
   }
 
   .cliente {
-    background-color: #ffe5cd;
+    background-color: #fff4ea;
   border-radius: 1rem;
   box-shadow: 0px 2px 2px rgba(255, 123, 0, 0.438);
   transition: all 0.4s;
@@ -187,6 +184,10 @@ a{
   background-color: #fff2e2;  
   }
 
+  img{
+    width: 80px;
+    clip-path: circle();
+  }
   i{
     color: #ff7762;
     padding-bottom: 5px;   
@@ -249,11 +250,15 @@ a{
         .beneficios__titulo { 
           font-size: 2.7rem;
          }
+         .beneificios-dos{
+          .beneficios-dos-parrafo{
+            font-size: 1rem;
+          }
+         }
       
          .beneficios p ,
-         .beneficios-dos-parrafo,
          .reseñas__info--container p {
-          font-size: 1.2rem;
+          font-size: 1rem;
           padding: 0px 8rem;
       }
       
@@ -291,10 +296,16 @@ a{
       }
       
       .beneficios p ,
-      .beneficios-dos-parrafo,
       .reseñas__info--container p {
        font-size: 1.1rem;
        padding: 0px 7rem;
+      }
+
+      .beneficios-dos{
+        .beneficios-dos-parrafo{
+          font-size: 1.1rem;
+          padding: 0px 1.8rem;
+        }
       }
       
       
@@ -306,6 +317,8 @@ a{
       .container__info h3 { 
         font-size: 2.3rem;
         }
+
+        
         
       }
 
@@ -353,7 +366,7 @@ a{
       .beneficios p ,
       .beneficios-dos-parrafo,
       .reseñas__info--container p {
-       padding: 0px 2.8rem;
+       padding: 0px 1.8rem;
       }
       
       .beneficios__titulo { 
@@ -370,13 +383,12 @@ a{
       }
       
       .container__info h3 { 
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         }
       
         .info-texto {
-          padding: 0px 2.8rem;
+          padding: 0px 1.5rem;
           margin: 0%;
         
         }
-      
       }

@@ -11,7 +11,7 @@
 }
 
 .beneficios__portada {
-    background-image: url(../imagenes/beneficios__portada.b.jpg);
+    background-image: url(../imagenes/beneficios__portada.c);
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -54,12 +54,13 @@
 .tips__beneficios {
     background-color: #ffffff;
    }
+
    
    .tips__imagen {
      position: relative;
      width: 100%;
      height: 250px;
-     background-color: #bd5f4e;
+     background-image: url(../imagenes/beneficios_frase_background.jpg);
      background-position: center;
      background-size: cover;
      z-index: 10;
@@ -67,12 +68,14 @@
    }
 
    .tips__imagen {
+
+    margin-top: 3rem;
        img{
         position: absolute;
-        top: 65%;
+        top: 50%;
         left: 50%;
         transform: translateX(-50%);
-        width: 150px; 
+        width: 200px; 
        } 
        
        h2{
@@ -80,11 +83,12 @@
         top: 27%;
         left: 50%;
         transform: translateX(-50%);
-        font-family: "poppins";
+        font-family:$type;
         font-weight: 600;
-        font-size: 1.5rem;
-        color: white;
-        text-align: center;           
+        font-size: 1.8rem;
+        color: map-get($color-map,tcolor_dos );
+        text-align: center;    
+        z-index: 10;       
        }
    }
 
