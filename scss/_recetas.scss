@@ -90,6 +90,7 @@ $type:"poppins";
         color: map-get($color-map,tcolor_dos );
         text-align: left;
         margin: 20px 50px 50px 50px;
+        padding: 0px 1rem;
       }   
 }
 
@@ -169,7 +170,6 @@ $type:"poppins";
 
        p { 
            font-size: 1.2rem;
-           padding: 0px 5px;
        }
    }
 
@@ -180,7 +180,6 @@ $type:"poppins";
     .body__recetas { 
        p { 
          font-size: 1.1rem;
-         padding: 0px 1rem;
         }
     }
 
@@ -295,7 +294,7 @@ $type:"poppins";
         }
 
         p { 
-            padding: 0rem 1rem 2rem;
+            padding: 0rem 2rem ;
             margin: 0%;
             font-size: 0.9rem;
         }
@@ -334,6 +333,14 @@ $type:"poppins";
                 li{
                     font-size: 0.75rem;
                  }
+        }
+    }
+
+    .body__recetas { 
+        h2 { 
+            font-size: 1.6rem;
+            margin: 2rem 2rem 1rem;
+            
         }
     }
 }

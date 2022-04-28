@@ -57,7 +57,8 @@
   font-size: 1.3rem;
   color: #3d352a;
   text-align: left;
-  margin: 20px 50px 50px 50px; }
+  margin: 20px 50px 50px 50px;
+  padding: 0px 1rem; }
 
 .recetas__flex img {
   position: absolute;
@@ -116,13 +117,11 @@
   .body__recetas h2 {
     font-size: 2.3rem; }
   .body__recetas p {
-    font-size: 1.2rem;
-    padding: 0px 5px; } }
+    font-size: 1.2rem; } }
 
 @media only screen and (max-width: 820px) {
   .body__recetas p {
-    font-size: 1.1rem;
-    padding: 0px 1rem; }
+    font-size: 1.1rem; }
   .recetas__imagen h1 {
     font-size: 3rem; }
   .recetas__imagen h1 {
@@ -193,7 +192,7 @@
   .body__recetas h2 {
     font-size: 1.6rem; }
   .body__recetas p {
-    padding: 0rem 1rem 2rem;
+    padding: 0rem 2rem;
     margin: 0%;
     font-size: 0.9rem; }
   .recetas__imagen h1 {
@@ -215,7 +214,10 @@
     left: 50%;
     transform: translateX(-50%); }
     .recetas__flex ul li {
-      font-size: 0.75rem; } }
+      font-size: 0.75rem; }
+  .body__recetas h2 {
+    font-size: 1.6rem;
+    margin: 2rem 2rem 1rem; } }
 
 * {
   margin: 0%;
@@ -372,7 +374,8 @@
 @media only screen and (max-width: 495px) {
   .body__contenido p {
     margin: 1rem;
-    font-size: 0.85rem; }
+    font-size: 0.85rem;
+    padding: 1rem 2rem; }
   .body__contenido h2 {
     font-size: 1.3rem; }
   .portada__contenido--imagen h1 {
@@ -662,10 +665,11 @@ main .container {
   align-items: center;
   flex-wrap: wrap;
   padding: 0%;
-  background-color: #ffecdc; }
+  background-color: #ffecdc;
+  margin: 2rem 0px; }
   .packs__body--flex div {
     width: 26rem;
-    height: 35.5rem;
+    height: 37rem;
     margin: 0px 40px 30px 40px;
     background-color: #fff;
     position: relative;
@@ -681,88 +685,23 @@ main .container {
       height: auto; }
     .packs__body--flex div h2 {
       position: absolute;
-      top: 62%;
+      top: 50%;
       left: 50%;
       transform: translateX(-50%);
       font-family: "poppins";
       font-weight: 700;
       font-size: 2rem;
       color: #2f231c; }
-    .packs__body--flex div .mas_vendido {
-      width: 100%;
-      height: 2rem;
-      background-color: #fe8a75;
+    .packs__body--flex div p {
       position: absolute;
-      bottom: 0%;
-      margin: 0%;
-      transform: none;
-      border-radius: 0%; }
-      .packs__body--flex div .mas_vendido p b {
-        position: absolute;
-        top: "0";
-        left: 50%;
-        transform: translateX(-50%);
-        color: white; }
-  .packs__body--flex .promocion {
-    width: 64.5rem;
-    height: 24rem;
-    background-color: #ffffff;
-    border-radius: 2rem;
-    position: relative;
-    border-radius: 10px;
-    transition: all 0.4s;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
-    margin-top: 2rem; }
-    .packs__body--flex .promocion:hover {
-      transform: translateY(-15px);
-      box-shadow: 0 12px 16px rgba(255, 94, 0, 0.2); }
-    .packs__body--flex .promocion img {
-      width: 23.5rem;
-      height: 24rem;
-      position: absolute;
-      left: 0%;
-      background-position: center;
-      background-size: cover; }
-    .packs__body--flex .promocion h1 {
-      position: absolute;
-      top: 10%;
-      left: 43%;
-      font-family: "poppins";
-      font-size: 2.1rem;
-      font-weight: 700;
-      color: #3d352a;
-      line-height: 2.7rem; }
-    .packs__body--flex .promocion h4 {
-      position: absolute;
-      top: 24%;
-      left: 43%;
-      font-family: "poppins";
+      top: 72%;
+      left: 50%;
+      transform: translateX(-50%);
       font-size: 1rem;
-      font-weight: 600;
-      color: white;
-      background-color: #fe8a75;
-      padding: 4px 9px;
-      border-radius: 2rem; }
-    .packs__body--flex .promocion a {
-      position: absolute;
-      top: 70%;
-      left: 43%;
-      font-weight: 600;
-      text-decoration: none;
-      color: white;
-      padding: 10px 20px;
-      background-color: #57322d;
-      border-radius: 1rem;
-      text-transform: uppercase; }
-      .packs__body--flex .promocion a:hover {
-        background-color: #f47762;
-        transition: 0.5s;
-        color: white; }
-    .packs__body--flex .promocion i {
-      margin-right: 8px; }
+      text-align: center; }
   .packs__body--flex h2 {
     position: absolute;
-    top: 59%;
+    top: 50%;
     left: 50%;
     transform: translateX(-50%);
     font-family: "poppins";
@@ -771,7 +710,7 @@ main .container {
     color: #3d352a; }
   .packs__body--flex h3 {
     position: absolute;
-    top: 69%;
+    top: 67%;
     left: 50%;
     transform: translateX(-50%);
     font-family: "poppins";
@@ -780,14 +719,14 @@ main .container {
   .packs__body--flex ul {
     display: inline-block;
     position: absolute;
-    top: 75%;
+    top: 72%;
     left: 45%;
     transform: translateX(-50%);
     text-align: center; }
     .packs__body--flex ul li {
       font-family: "poppins";
       font-weight: 500;
-      font-size: 0.8rem;
+      font-size: 0.9rem;
       color: #57322d;
       list-style-type: none; }
   .packs__body--flex h5 {
@@ -809,108 +748,30 @@ main .container {
       background-color: white;
       transition: 0.5s; }
 
-.promocion__imagen--uno {
-  width: 30rem;
-  height: auto;
-  position: absolute;
-  left: 0%;
-  background-position: center;
-  background-size: cover;
-  background-image: url(../imagenes/promocion__uno.b.jpg); }
-
-.promo-texto {
-  position: absolute;
-  top: 40%;
-  left: 43%;
-  margin-right: 4rem;
-  font-size: 1.2rem;
-  color: #3d352a;
-  font-family: "poppins"; }
-
-.row {
-  margin: 0%; }
-
 /*packs responsive*/
 @media only screen and (max-width: 1100px) {
-  .packs__body--flex .promocion {
-    width: 49.5rem;
-    height: 24rem; }
-    .packs__body--flex .promocion h1 {
-      left: 53%; }
-    .packs__body--flex .promocion h4 {
-      top: 37%;
-      left: 53%; }
-    .packs__body--flex .promocion a {
-      top: 79%;
-      left: 53%; }
   .packs__portada h1 {
-    font-size: 5rem; }
-  .promo-texto {
-    position: absolute;
-    top: 50%;
-    left: 53%;
-    margin-right: 4rem;
-    font-size: 1rem; } }
+    font-size: 5rem; } }
 
 @media only screen and (max-width: 945px) {
   .packs__body b {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  .packs__body--flex div ul {
+    left: 45%; }
+  .packs__body--flex div h3 {
+    left: 50%; } }
 
 @media only screen and (max-width: 880px) {
   .packs__body h2 {
     font-size: 2rem; }
   .packs__body b {
-    font-size: 1.3rem; }
-  .packs__body--flex .promocion {
-    width: 25rem;
-    height: 45rem; }
-    .packs__body--flex .promocion img {
-      width: 100%;
-      height: auto; }
-    .packs__body--flex .promocion h1 {
-      top: 65%;
-      left: 50%;
-      transform: translateX(-50%);
-      font-size: 2rem;
-      text-align: center;
-      line-height: 2rem; }
-    .packs__body--flex .promocion h4 {
-      top: 5%;
-      left: 10%;
-      font-size: 1rem; }
-    .packs__body--flex .promocion a {
-      top: 10%;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 10;
-      font-size: 0.8rem; }
-  .promo-texto {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translateX(-50%);
-    transform: translateX(-50%);
-    margin: 0%; } }
+    font-size: 1.3rem; } }
 
 @media only screen and (max-width: 650px) {
   .packs__body h2 {
     font-size: 2.3rem; }
   .packs__body b {
-    font-size: 1.2rem; }
-  .packs__body--flex .promocion {
-    width: 22rem;
-    height: 44rem;
-    /* img{
-                width: 22rem;
-            }*/ }
-    .packs__body--flex .promocion a {
-      top: 48%; }
-    .packs__body--flex .promocion h1 {
-      top: 60%; }
-    .packs__body--flex .promocion p {
-      top: 73%; }
-  .promo-texto {
-    font-size: 0.9rem; } }
+    font-size: 1.2rem; } }
 
 @media only screen and (max-width: 495px) {
   .packs__body h2 {
@@ -919,17 +780,24 @@ main .container {
     font-size: 1.1rem; }
   .packs__body--flex div {
     width: 17rem;
-    height: 28rem;
+    height: 25rem;
     margin: 0%;
     margin-bottom: 2rem; }
     .packs__body--flex div h2 {
-      top: 56%;
-      font-size: 1.7rem; }
+      top: 42%;
+      font-size: 1.5rem; }
     .packs__body--flex div h3 {
-      top: 63.5%; }
+      top: 65%;
+      font-size: 0.8rem; }
     .packs__body--flex div ul {
-      top: 69%; }
+      top: 69%;
+      left: 44%; }
+      .packs__body--flex div ul li {
+        font-size: 0.7rem; }
     .packs__body--flex div h5 {
+      font-size: 0.6rem;
+      font-weight: 600; }
+    .packs__body--flex div p {
       font-size: 0.7rem; }
   .packs__body--flex .promocion {
     width: 17rem;
@@ -954,7 +822,13 @@ main .container {
       text-align: center; }
   .promo-texto {
     font-size: 0.8rem;
-    top: 75%; } }
+    top: 75%; }
+  .packs__body--flex .promocion {
+    width: 20rem;
+    height: 40rem; }
+  .packs__body--flex img {
+    width: 20rem;
+    height: auto; } }
 
 footer {
   background-color: #2f231c; }
